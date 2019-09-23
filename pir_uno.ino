@@ -1,4 +1,4 @@
-int p=13;
+int p=13;  
 int pir=2;
 void setup()
 {
@@ -12,4 +12,5 @@ void loop()
   digitalWrite(p,v);
   Serial.println(v);
 }
+/*swap ground and vcc if it does not work.*/
 
